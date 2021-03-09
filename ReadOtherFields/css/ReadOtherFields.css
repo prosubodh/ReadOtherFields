@@ -1,0 +1,16 @@
+SKPFC\.ReadOtherFields .appointments,
+SKPFC\.ReadOtherFields .appointments>tr,
+SKPFC\.ReadOtherFields .appointments>th,
+SKPFC\.ReadOtherFields .appointments>td {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+SKPFC\.ReadOtherFields .appointments>tr>th,
+SKPFC\.ReadOtherFields .appointments>tr>td {
+    padding: 5px 10px;
+}
+
+SKPFC\.ReadOtherFields .appointments>caption {
+    text-align: left;
+}

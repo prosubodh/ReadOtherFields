@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+	<control namespace="SKPFC" constructor="ReadOtherFields" version="0.0.1" display-name-key="ReadOtherFields" description-key="ReadOtherFields description" control-type="standard">
+		<property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+		<property name="test" display-name-key="Test" description-key="Test" of-type="SingleLine.Text" usage="bound" required="true" />
+		<resources>
+			<code path="index.ts" order="1" />
+			<css path="css/ReadOtherFields.css" order="2" />
+		</resources>
+		<feature-usage>
+			<uses-feature name="WebAPI" required="true" />
+		</feature-usage>
+	</control>
+</manifest>
