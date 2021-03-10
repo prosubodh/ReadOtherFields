@@ -1,16 +1,15 @@
-SKPFC\.ReadOtherFields .appointments,
-SKPFC\.ReadOtherFields .appointments>tr,
-SKPFC\.ReadOtherFields .appointments>th,
-SKPFC\.ReadOtherFields .appointments>td {
+.SKPFC\.ReadOtherFields .appointments,
+.SKPFC\.ReadOtherFields .appointments :is(tr,th,td) {
     border-collapse: collapse;
     border: 1px solid;
 }
 
-SKPFC\.ReadOtherFields .appointments>tr>th,
-SKPFC\.ReadOtherFields .appointments>tr>td {
+.SKPFC\.ReadOtherFields .appointments :is(th,td) {
     padding: 5px 10px;
+    text-align: left;
 }
 
-SKPFC\.ReadOtherFields .appointments>caption {
+.SKPFC\.ReadOtherFields .appointments>caption {
     text-align: left;
+    margin-bottom: 5px;
 }
